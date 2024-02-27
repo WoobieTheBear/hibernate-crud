@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "firstName": "Robert",
+            "lastName": "Dickenson",
+            "email": "robert.dickenson@test.com",
+            "company": "Gotham Police Department"
+        },
+        {
+            "firstName": "Rahel",
+            "lastName": "Daws",
+            "email": "katarina.daws@test.com",
+            "company": "Gotham Court"
+        },
+        {
+            "firstName": "Bruce",
+            "lastName": "Wayne",
+            "email": "bruce.wayne@wayne-enterprises.com",
+            "company": "Wayne Enterprises"
+        },
+        {
+            "firstName": "Thomas",
+            "lastName": "Wayne",
+            "email": "thomas.wayne@wayne-enterprises.com",
+            "company": "Wayne Enterprises"
+        },
+        {
+            "firstName": "Darius",
+            "lastName": "Anderson",
+            "email": "darius.anderson@test.com",
+            "company": "Dagget Industries"
+        }
+    ]
+}

@@ -1,0 +1,585 @@
+2024-02-27T09:40:22.750+01:00 DEBUG 20384 --- [restartedMain] org.hibernate.SQL                        : insert into person (company,created_at,email,first_name,last_login,last_name) values (?,?,?,?,?,?)
+2024-02-27T09:40:22.755+01:00 TRACE 20384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Gotham Police Department]
+2024-02-27T09:40:22.756+01:00 TRACE 20384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:TIMESTAMP) <- [2024-02-27 09:40:22.719]
+2024-02-27T09:40:22.756+01:00 TRACE 20384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [robert.dickenson@test.com]
+2024-02-27T09:40:22.757+01:00 TRACE 20384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [Robert]
+2024-02-27T09:40:22.766+01:00 TRACE 20384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (5:TIMESTAMP) <- [2024-02-27 09:40:22.719]
+2024-02-27T09:40:22.767+01:00 TRACE 20384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (6:VARCHAR) <- [Dickenson]
+2024-02-27T09:40:22.785+01:00 DEBUG 20384 --- [restartedMain] org.hibernate.SQL                        : insert into person (company,created_at,email,first_name,last_login,last_name) values (?,?,?,?,?,?)
+2024-02-27T09:40:22.786+01:00 TRACE 20384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Gotham Court]
+2024-02-27T09:40:22.786+01:00 TRACE 20384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:TIMESTAMP) <- [2024-02-27 09:40:22.719]
+2024-02-27T09:40:22.786+01:00 TRACE 20384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [katarina.daws@test.com]
+2024-02-27T09:40:22.786+01:00 TRACE 20384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [Rahel]
+2024-02-27T09:40:22.787+01:00 TRACE 20384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (5:TIMESTAMP) <- [2024-02-27 09:40:22.719]
+2024-02-27T09:40:22.787+01:00 TRACE 20384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (6:VARCHAR) <- [Daws]
+2024-02-27T09:40:22.790+01:00 DEBUG 20384 --- [restartedMain] org.hibernate.SQL                        : insert into person (company,created_at,email,first_name,last_login,last_name) values (?,?,?,?,?,?)
+2024-02-27T09:40:22.791+01:00 TRACE 20384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Wayne Enterprises]
+2024-02-27T09:40:22.792+01:00 TRACE 20384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:TIMESTAMP) <- [2024-02-27 09:40:22.719]
+2024-02-27T09:40:22.792+01:00 TRACE 20384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [bruce.wayne@wayne-enterprises.com]
+2024-02-27T09:40:22.793+01:00 TRACE 20384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [Bruce]
+2024-02-27T09:40:22.793+01:00 TRACE 20384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (5:TIMESTAMP) <- [2024-02-27 09:40:22.719]
+2024-02-27T09:40:22.793+01:00 TRACE 20384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (6:VARCHAR) <- [Wayne]
+2024-02-27T09:40:22.795+01:00 DEBUG 20384 --- [restartedMain] org.hibernate.SQL                        : insert into person (company,created_at,email,first_name,last_login,last_name) values (?,?,?,?,?,?)
+2024-02-27T09:40:22.796+01:00 TRACE 20384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Wayne Enterprises]
+2024-02-27T09:40:22.796+01:00 TRACE 20384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:TIMESTAMP) <- [2024-02-27 09:40:22.719]
+2024-02-27T09:40:22.796+01:00 TRACE 20384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [thomas.wayne@wayne-enterprises.com]
+2024-02-27T09:40:22.797+01:00 TRACE 20384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [Thomas]
+2024-02-27T09:40:22.797+01:00 TRACE 20384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (5:TIMESTAMP) <- [2024-02-27 09:40:22.719]
+2024-02-27T09:40:22.797+01:00 TRACE 20384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (6:VARCHAR) <- [Wayne]
+2024-02-27T09:40:22.799+01:00 DEBUG 20384 --- [restartedMain] org.hibernate.SQL                        : insert into person (company,created_at,email,first_name,last_login,last_name) values (?,?,?,?,?,?)
+2024-02-27T09:40:22.799+01:00 TRACE 20384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Dagget Industries]
+2024-02-27T09:40:22.800+01:00 TRACE 20384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:TIMESTAMP) <- [2024-02-27 09:40:22.719]
+2024-02-27T09:40:22.800+01:00 TRACE 20384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [darius.anderson@test.com]
+2024-02-27T09:40:22.800+01:00 TRACE 20384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [Darius]
+2024-02-27T09:40:22.801+01:00 TRACE 20384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (5:TIMESTAMP) <- [2024-02-27 09:40:22.719]
+2024-02-27T09:40:22.801+01:00 TRACE 20384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (6:VARCHAR) <- [Anderson]
+2024-02-27T09:40:22.821+01:00 DEBUG 20384 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 where p1_0.id=?
+2024-02-27T09:40:22.822+01:00 TRACE 20384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [10010]
+2024-02-27T09:40:22.963+01:00 DEBUG 20384 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 order by p1_0.last_name
+2024-02-27T09:40:22.982+01:00 DEBUG 20384 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 where p1_0.last_name=?
+2024-02-27T09:40:22.982+01:00 TRACE 20384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Wayne]
+2024-02-27T09:40:22.984+01:00 DEBUG 20384 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 where p1_0.id=?
+2024-02-27T09:40:22.984+01:00 TRACE 20384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [10010]
+2024-02-27T09:40:22.987+01:00 DEBUG 20384 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 where p1_0.id=?
+2024-02-27T09:40:22.987+01:00 TRACE 20384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [10010]
+2024-02-27T09:40:22.992+01:00 DEBUG 20384 --- [restartedMain] org.hibernate.SQL                        : update person set company=?,created_at=?,email=?,first_name=?,last_login=?,last_name=? where id=?
+2024-02-27T09:40:22.993+01:00 TRACE 20384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [The Joker Inc.]
+2024-02-27T09:40:22.993+01:00 TRACE 20384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:TIMESTAMP) <- [2024-02-27 09:40:22.719]
+2024-02-27T09:40:22.993+01:00 TRACE 20384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [robert.dickenson@test.com]
+2024-02-27T09:40:22.994+01:00 TRACE 20384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [Robert]
+2024-02-27T09:40:22.994+01:00 TRACE 20384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (5:TIMESTAMP) <- [2024-02-27 09:40:22.719]
+2024-02-27T09:40:22.994+01:00 TRACE 20384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (6:VARCHAR) <- [Dickenson]
+2024-02-27T09:40:22.994+01:00 TRACE 20384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (7:BIGINT) <- [10010]
+2024-02-27T09:40:23.006+01:00 DEBUG 20384 --- [restartedMain] org.hibernate.SQL                        : update person set company=? where last_name=?
+2024-02-27T09:40:23.007+01:00 TRACE 20384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Bat Cave Inc.]
+2024-02-27T09:40:23.007+01:00 TRACE 20384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:VARCHAR) <- [Wayne]
+2024-02-27T09:40:23.010+01:00 DEBUG 20384 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 order by p1_0.last_name
+2024-02-27T09:40:23.013+01:00 DEBUG 20384 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 where p1_0.id=?
+2024-02-27T09:40:23.014+01:00 TRACE 20384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [10010]
+2024-02-27T09:40:23.016+01:00 DEBUG 20384 --- [restartedMain] org.hibernate.SQL                        : delete from person where id=?
+2024-02-27T09:40:23.017+01:00 TRACE 20384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [10010]
+2024-02-27T09:40:23.018+01:00 DEBUG 20384 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 order by p1_0.last_name
+2024-02-27T09:40:23.024+01:00 DEBUG 20384 --- [restartedMain] org.hibernate.SQL                        : delete from person where last_name=?
+2024-02-27T09:40:23.025+01:00 TRACE 20384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Wayne]
+2024-02-27T09:40:23.027+01:00 DEBUG 20384 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 order by p1_0.last_name
+2024-02-27T09:40:23.030+01:00 DEBUG 20384 --- [restartedMain] org.hibernate.SQL                        : delete from person
+2024-02-27T09:40:23.031+01:00 DEBUG 20384 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 order by p1_0.last_name
+2024-02-27T09:44:19.479+01:00 DEBUG 18768 --- [restartedMain] org.hibernate.SQL                        : insert into person (company,created_at,email,first_name,last_login,last_name) values (?,?,?,?,?,?)
+2024-02-27T09:44:19.484+01:00 TRACE 18768 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Gotham Police Department]
+2024-02-27T09:44:19.485+01:00 TRACE 18768 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:TIMESTAMP) <- [2024-02-27 09:44:19.446]
+2024-02-27T09:44:19.485+01:00 TRACE 18768 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [robert.dickenson@test.com]
+2024-02-27T09:44:19.485+01:00 TRACE 18768 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [Robert]
+2024-02-27T09:44:19.486+01:00 TRACE 18768 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (5:TIMESTAMP) <- [2024-02-27 09:44:19.446]
+2024-02-27T09:44:19.486+01:00 TRACE 18768 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (6:VARCHAR) <- [Dickenson]
+2024-02-27T09:44:19.490+01:00  WARN 18768 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 42P01
+2024-02-27T09:44:19.491+01:00 ERROR 18768 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : ERROR: relation "person" does not exist
+  Position: 13
+2024-02-27T09:44:19.515+01:00 ERROR 18768 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.dao.InvalidDataAccessResourceUsageException: could not execute statement [ERROR: relation "person" does not exist
+  Position: 13] [insert into person (company,created_at,email,first_name,last_login,last_name) values (?,?,?,?,?,?)]; SQL [insert into person (company,created_at,email,first_name,last_login,last_name) values (?,?,?,?,?,?)]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:277) ~[spring-orm-6.1.4.jar:6.1.4]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:241) ~[spring-orm-6.1.4.jar:6.1.4]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:550) ~[spring-orm-6.1.4.jar:6.1.4]
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61) ~[spring-tx-6.1.4.jar:6.1.4]
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:335) ~[spring-tx-6.1.4.jar:6.1.4]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:152) ~[spring-tx-6.1.4.jar:6.1.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.4.jar:6.1.4]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765) ~[spring-aop-6.1.4.jar:6.1.4]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-6.1.4.jar:6.1.4]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:385) ~[spring-tx-6.1.4.jar:6.1.4]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.1.4.jar:6.1.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.4.jar:6.1.4]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765) ~[spring-aop-6.1.4.jar:6.1.4]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:717) ~[spring-aop-6.1.4.jar:6.1.4]
+	at io.black.crud.dao.PersonDAOImpl$$SpringCGLIB$$0.save(<generated>) ~[classes/:na]
+	at io.black.crud.CrudApplication.savePerson(CrudApplication.java:77) ~[classes/:na]
+	at io.black.crud.CrudApplication.createPerson(CrudApplication.java:71) ~[classes/:na]
+	at io.black.crud.CrudApplication.lambda$0(CrudApplication.java:35) ~[classes/:na]
+	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:790) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:83) ~[spring-core-6.1.4.jar:6.1.4]
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60) ~[spring-core-6.1.4.jar:6.1.4]
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:88) ~[spring-core-6.1.4.jar:6.1.4]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:798) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:789) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:774) ~[spring-boot-3.2.3.jar:3.2.3]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) ~[na:na]
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[na:na]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:774) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:341) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.3.jar:3.2.3]
+	at io.black.crud.CrudApplication.main(CrudApplication.java:26) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.3.jar:3.2.3]
+Caused by: org.hibernate.exception.SQLGrammarException: could not execute statement [ERROR: relation "person" does not exist
+  Position: 13] [insert into person (company,created_at,email,first_name,last_login,last_name) values (?,?,?,?,?,?)]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:91) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.id.insert.GetGeneratedKeysDelegate.performInsert(GetGeneratedKeysDelegate.java:107) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorPostInsertSingleTable.execute(MutationExecutorPostInsertSingleTable.java:100) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.doStaticInserts(InsertCoordinator.java:175) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.coordinateInsert(InsertCoordinator.java:113) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2868) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:81) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:670) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:291) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:272) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:386) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:300) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:219) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:134) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:175) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:93) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:77) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:54) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:754) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:738) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:319) ~[spring-orm-6.1.4.jar:6.1.4]
+	at jdk.proxy4/jdk.proxy4.$Proxy100.persist(Unknown Source) ~[na:na]
+	at io.black.crud.dao.PersonDAOImpl.save(PersonDAOImpl.java:26) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:351) ~[spring-aop-6.1.4.jar:6.1.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.1.4.jar:6.1.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.1.4.jar:6.1.4]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765) ~[spring-aop-6.1.4.jar:6.1.4]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-6.1.4.jar:6.1.4]
+	... 37 common frames omitted
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "person" does not exist
+  Position: 13
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713) ~[postgresql-42.6.1.jar:42.6.1]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401) ~[postgresql-42.6.1.jar:42.6.1]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368) ~[postgresql-42.6.1.jar:42.6.1]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498) ~[postgresql-42.6.1.jar:42.6.1]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415) ~[postgresql-42.6.1.jar:42.6.1]
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190) ~[postgresql-42.6.1.jar:42.6.1]
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152) ~[postgresql-42.6.1.jar:42.6.1]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-5.0.1.jar:na]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	... 74 common frames omitted
+
+2024-02-27T09:47:14.457+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : drop table if exists person cascade
+2024-02-27T09:47:14.460+01:00  WARN 20140 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-02-27T09:47:14.461+01:00  WARN 20140 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "person" does not exist, skipping
+2024-02-27T09:47:14.474+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : create table person (created_at timestamp(6), id bigserial not null, last_login timestamp(6), company varchar(255), email varchar(255), first_name varchar(255), last_name varchar(255), primary key (id))
+2024-02-27T09:47:14.765+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : insert into person (company,created_at,email,first_name,last_login,last_name) values (?,?,?,?,?,?)
+2024-02-27T09:47:14.767+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Gotham Police Department]
+2024-02-27T09:47:14.768+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:TIMESTAMP) <- [2024-02-27 09:47:14.733]
+2024-02-27T09:47:14.769+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [robert.dickenson@test.com]
+2024-02-27T09:47:14.769+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [Robert]
+2024-02-27T09:47:14.769+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (5:TIMESTAMP) <- [2024-02-27 09:47:14.733]
+2024-02-27T09:47:14.769+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (6:VARCHAR) <- [Dickenson]
+2024-02-27T09:47:14.791+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : insert into person (company,created_at,email,first_name,last_login,last_name) values (?,?,?,?,?,?)
+2024-02-27T09:47:14.792+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Gotham Court]
+2024-02-27T09:47:14.792+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:TIMESTAMP) <- [2024-02-27 09:47:14.733]
+2024-02-27T09:47:14.792+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [katarina.daws@test.com]
+2024-02-27T09:47:14.793+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [Rahel]
+2024-02-27T09:47:14.793+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (5:TIMESTAMP) <- [2024-02-27 09:47:14.733]
+2024-02-27T09:47:14.793+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (6:VARCHAR) <- [Daws]
+2024-02-27T09:47:14.795+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : insert into person (company,created_at,email,first_name,last_login,last_name) values (?,?,?,?,?,?)
+2024-02-27T09:47:14.795+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Wayne Enterprises]
+2024-02-27T09:47:14.795+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:TIMESTAMP) <- [2024-02-27 09:47:14.733]
+2024-02-27T09:47:14.795+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [bruce.wayne@wayne-enterprises.com]
+2024-02-27T09:47:14.795+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [Bruce]
+2024-02-27T09:47:14.796+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (5:TIMESTAMP) <- [2024-02-27 09:47:14.733]
+2024-02-27T09:47:14.796+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (6:VARCHAR) <- [Wayne]
+2024-02-27T09:47:14.797+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : insert into person (company,created_at,email,first_name,last_login,last_name) values (?,?,?,?,?,?)
+2024-02-27T09:47:14.797+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Wayne Enterprises]
+2024-02-27T09:47:14.798+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:TIMESTAMP) <- [2024-02-27 09:47:14.733]
+2024-02-27T09:47:14.798+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [thomas.wayne@wayne-enterprises.com]
+2024-02-27T09:47:14.798+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [Thomas]
+2024-02-27T09:47:14.798+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (5:TIMESTAMP) <- [2024-02-27 09:47:14.733]
+2024-02-27T09:47:14.798+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (6:VARCHAR) <- [Wayne]
+2024-02-27T09:47:14.800+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : insert into person (company,created_at,email,first_name,last_login,last_name) values (?,?,?,?,?,?)
+2024-02-27T09:47:14.801+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Dagget Industries]
+2024-02-27T09:47:14.801+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:TIMESTAMP) <- [2024-02-27 09:47:14.733]
+2024-02-27T09:47:14.801+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [darius.anderson@test.com]
+2024-02-27T09:47:14.801+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [Darius]
+2024-02-27T09:47:14.801+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (5:TIMESTAMP) <- [2024-02-27 09:47:14.733]
+2024-02-27T09:47:14.801+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (6:VARCHAR) <- [Anderson]
+2024-02-27T09:47:14.822+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 where p1_0.id=?
+2024-02-27T09:47:14.823+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2024-02-27T09:47:14.969+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 order by p1_0.last_name
+2024-02-27T09:47:14.992+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 where p1_0.last_name=?
+2024-02-27T09:47:14.993+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Wayne]
+2024-02-27T09:47:14.995+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 where p1_0.id=?
+2024-02-27T09:47:14.995+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2024-02-27T09:47:14.998+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 where p1_0.id=?
+2024-02-27T09:47:14.999+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2024-02-27T09:47:15.004+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : update person set company=?,created_at=?,email=?,first_name=?,last_login=?,last_name=? where id=?
+2024-02-27T09:47:15.005+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [The Joker Inc.]
+2024-02-27T09:47:15.005+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:TIMESTAMP) <- [2024-02-27 09:47:14.733]
+2024-02-27T09:47:15.005+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [robert.dickenson@test.com]
+2024-02-27T09:47:15.005+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [Robert]
+2024-02-27T09:47:15.006+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (5:TIMESTAMP) <- [2024-02-27 09:47:14.733]
+2024-02-27T09:47:15.006+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (6:VARCHAR) <- [Dickenson]
+2024-02-27T09:47:15.006+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (7:BIGINT) <- [1]
+2024-02-27T09:47:15.023+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : update person set company=? where last_name=?
+2024-02-27T09:47:15.024+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Bat Cave Inc.]
+2024-02-27T09:47:15.024+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:VARCHAR) <- [Wayne]
+2024-02-27T09:47:15.026+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 order by p1_0.last_name
+2024-02-27T09:47:15.028+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 where p1_0.id=?
+2024-02-27T09:47:15.028+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2024-02-27T09:47:15.031+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : delete from person where id=?
+2024-02-27T09:47:15.031+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2024-02-27T09:47:15.033+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 order by p1_0.last_name
+2024-02-27T09:47:15.040+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : delete from person where last_name=?
+2024-02-27T09:47:15.041+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Wayne]
+2024-02-27T09:47:15.042+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 order by p1_0.last_name
+2024-02-27T09:47:15.044+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : delete from person
+2024-02-27T09:47:15.045+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 order by p1_0.last_name
+2024-02-27T09:47:59.111+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : drop table if exists person cascade
+2024-02-27T09:47:59.115+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : create table person (created_at timestamp(6), id bigserial not null, last_login timestamp(6), company varchar(255), email varchar(255), first_name varchar(255), last_name varchar(255), primary key (id))
+2024-02-27T09:47:59.194+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : insert into person (company,created_at,email,first_name,last_login,last_name) values (?,?,?,?,?,?)
+2024-02-27T09:47:59.194+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Gotham Police Department]
+2024-02-27T09:47:59.195+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:TIMESTAMP) <- [2024-02-27 09:47:59.193]
+2024-02-27T09:47:59.195+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [robert.dickenson@test.com]
+2024-02-27T09:47:59.195+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [Robert]
+2024-02-27T09:47:59.196+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (5:TIMESTAMP) <- [2024-02-27 09:47:59.193]
+2024-02-27T09:47:59.196+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (6:VARCHAR) <- [Dickenson]
+2024-02-27T09:47:59.201+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : insert into person (company,created_at,email,first_name,last_login,last_name) values (?,?,?,?,?,?)
+2024-02-27T09:47:59.201+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Gotham Court]
+2024-02-27T09:47:59.201+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:TIMESTAMP) <- [2024-02-27 09:47:59.193]
+2024-02-27T09:47:59.201+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [katarina.daws@test.com]
+2024-02-27T09:47:59.202+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [Rahel]
+2024-02-27T09:47:59.202+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (5:TIMESTAMP) <- [2024-02-27 09:47:59.193]
+2024-02-27T09:47:59.202+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (6:VARCHAR) <- [Daws]
+2024-02-27T09:47:59.204+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : insert into person (company,created_at,email,first_name,last_login,last_name) values (?,?,?,?,?,?)
+2024-02-27T09:47:59.204+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Wayne Enterprises]
+2024-02-27T09:47:59.204+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:TIMESTAMP) <- [2024-02-27 09:47:59.193]
+2024-02-27T09:47:59.204+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [bruce.wayne@wayne-enterprises.com]
+2024-02-27T09:47:59.204+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [Bruce]
+2024-02-27T09:47:59.205+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (5:TIMESTAMP) <- [2024-02-27 09:47:59.193]
+2024-02-27T09:47:59.205+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (6:VARCHAR) <- [Wayne]
+2024-02-27T09:47:59.207+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : insert into person (company,created_at,email,first_name,last_login,last_name) values (?,?,?,?,?,?)
+2024-02-27T09:47:59.207+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Wayne Enterprises]
+2024-02-27T09:47:59.207+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:TIMESTAMP) <- [2024-02-27 09:47:59.193]
+2024-02-27T09:47:59.208+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [thomas.wayne@wayne-enterprises.com]
+2024-02-27T09:47:59.208+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [Thomas]
+2024-02-27T09:47:59.208+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (5:TIMESTAMP) <- [2024-02-27 09:47:59.193]
+2024-02-27T09:47:59.208+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (6:VARCHAR) <- [Wayne]
+2024-02-27T09:47:59.210+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : insert into person (company,created_at,email,first_name,last_login,last_name) values (?,?,?,?,?,?)
+2024-02-27T09:47:59.210+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Dagget Industries]
+2024-02-27T09:47:59.211+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:TIMESTAMP) <- [2024-02-27 09:47:59.193]
+2024-02-27T09:47:59.211+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [darius.anderson@test.com]
+2024-02-27T09:47:59.211+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [Darius]
+2024-02-27T09:47:59.211+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (5:TIMESTAMP) <- [2024-02-27 09:47:59.193]
+2024-02-27T09:47:59.211+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (6:VARCHAR) <- [Anderson]
+2024-02-27T09:47:59.213+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 where p1_0.id=?
+2024-02-27T09:47:59.213+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2024-02-27T09:47:59.226+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 order by p1_0.last_name
+2024-02-27T09:47:59.229+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 where p1_0.last_name=?
+2024-02-27T09:47:59.230+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Wayne]
+2024-02-27T09:47:59.231+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 where p1_0.id=?
+2024-02-27T09:47:59.232+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2024-02-27T09:47:59.233+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 where p1_0.id=?
+2024-02-27T09:47:59.233+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2024-02-27T09:47:59.234+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : update person set company=?,created_at=?,email=?,first_name=?,last_login=?,last_name=? where id=?
+2024-02-27T09:47:59.235+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [The Joker Inc.]
+2024-02-27T09:47:59.235+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:TIMESTAMP) <- [2024-02-27 09:47:59.193]
+2024-02-27T09:47:59.235+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [robert.dickenson@test.com]
+2024-02-27T09:47:59.235+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [Robert]
+2024-02-27T09:47:59.236+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (5:TIMESTAMP) <- [2024-02-27 09:47:59.193]
+2024-02-27T09:47:59.236+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (6:VARCHAR) <- [Dickenson]
+2024-02-27T09:47:59.236+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (7:BIGINT) <- [1]
+2024-02-27T09:47:59.239+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : update person set company=? where last_name=?
+2024-02-27T09:47:59.240+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Bat Cave Inc.]
+2024-02-27T09:47:59.240+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:VARCHAR) <- [Wayne]
+2024-02-27T09:47:59.243+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 order by p1_0.last_name
+2024-02-27T09:47:59.246+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 where p1_0.id=?
+2024-02-27T09:47:59.247+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2024-02-27T09:47:59.248+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : delete from person where id=?
+2024-02-27T09:47:59.248+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2024-02-27T09:47:59.249+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 order by p1_0.last_name
+2024-02-27T09:47:59.252+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : delete from person where last_name=?
+2024-02-27T09:47:59.253+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Wayne]
+2024-02-27T09:47:59.254+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 order by p1_0.last_name
+2024-02-27T09:47:59.256+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : delete from person
+2024-02-27T09:47:59.258+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 order by p1_0.last_name
+2024-02-27T09:51:20.181+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : drop table if exists person cascade
+2024-02-27T09:51:20.194+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : create table person (created_at timestamp(6), id bigserial not null, last_login timestamp(6), company varchar(255), email varchar(255), first_name varchar(255), last_name varchar(255), primary key (id))
+2024-02-27T09:51:20.271+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : insert into person (company,created_at,email,first_name,last_login,last_name) values (?,?,?,?,?,?)
+2024-02-27T09:51:20.272+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Gotham Police Department]
+2024-02-27T09:51:20.272+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:TIMESTAMP) <- [2024-02-27 09:51:20.269]
+2024-02-27T09:51:20.273+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [robert.dickenson@test.com]
+2024-02-27T09:51:20.273+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [Robert]
+2024-02-27T09:51:20.273+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (5:TIMESTAMP) <- [2024-02-27 09:51:20.269]
+2024-02-27T09:51:20.273+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (6:VARCHAR) <- [Dickenson]
+2024-02-27T09:51:20.277+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : insert into person (company,created_at,email,first_name,last_login,last_name) values (?,?,?,?,?,?)
+2024-02-27T09:51:20.277+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Gotham Court]
+2024-02-27T09:51:20.277+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:TIMESTAMP) <- [2024-02-27 09:51:20.269]
+2024-02-27T09:51:20.277+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [katarina.daws@test.com]
+2024-02-27T09:51:20.277+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [Rahel]
+2024-02-27T09:51:20.278+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (5:TIMESTAMP) <- [2024-02-27 09:51:20.269]
+2024-02-27T09:51:20.278+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (6:VARCHAR) <- [Daws]
+2024-02-27T09:51:20.279+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : insert into person (company,created_at,email,first_name,last_login,last_name) values (?,?,?,?,?,?)
+2024-02-27T09:51:20.279+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Wayne Enterprises]
+2024-02-27T09:51:20.280+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:TIMESTAMP) <- [2024-02-27 09:51:20.269]
+2024-02-27T09:51:20.280+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [bruce.wayne@wayne-enterprises.com]
+2024-02-27T09:51:20.280+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [Bruce]
+2024-02-27T09:51:20.280+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (5:TIMESTAMP) <- [2024-02-27 09:51:20.269]
+2024-02-27T09:51:20.280+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (6:VARCHAR) <- [Wayne]
+2024-02-27T09:51:20.282+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : insert into person (company,created_at,email,first_name,last_login,last_name) values (?,?,?,?,?,?)
+2024-02-27T09:51:20.282+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Wayne Enterprises]
+2024-02-27T09:51:20.283+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:TIMESTAMP) <- [2024-02-27 09:51:20.269]
+2024-02-27T09:51:20.283+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [thomas.wayne@wayne-enterprises.com]
+2024-02-27T09:51:20.283+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [Thomas]
+2024-02-27T09:51:20.283+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (5:TIMESTAMP) <- [2024-02-27 09:51:20.269]
+2024-02-27T09:51:20.284+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (6:VARCHAR) <- [Wayne]
+2024-02-27T09:51:20.286+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : insert into person (company,created_at,email,first_name,last_login,last_name) values (?,?,?,?,?,?)
+2024-02-27T09:51:20.286+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Dagget Industries]
+2024-02-27T09:51:20.287+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:TIMESTAMP) <- [2024-02-27 09:51:20.269]
+2024-02-27T09:51:20.287+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [darius.anderson@test.com]
+2024-02-27T09:51:20.287+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [Darius]
+2024-02-27T09:51:20.287+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (5:TIMESTAMP) <- [2024-02-27 09:51:20.269]
+2024-02-27T09:51:20.287+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (6:VARCHAR) <- [Anderson]
+2024-02-27T09:51:20.289+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 where p1_0.id=?
+2024-02-27T09:51:20.289+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2024-02-27T09:51:20.302+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 order by p1_0.last_name
+2024-02-27T09:51:20.306+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 where p1_0.last_name=?
+2024-02-27T09:51:20.306+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Wayne]
+2024-02-27T09:51:20.307+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 where p1_0.id=?
+2024-02-27T09:51:20.308+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2024-02-27T09:51:20.309+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 where p1_0.id=?
+2024-02-27T09:51:20.309+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2024-02-27T09:51:20.310+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : update person set company=?,created_at=?,email=?,first_name=?,last_login=?,last_name=? where id=?
+2024-02-27T09:51:20.310+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [The Joker Inc.]
+2024-02-27T09:51:20.311+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:TIMESTAMP) <- [2024-02-27 09:51:20.269]
+2024-02-27T09:51:20.311+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [robert.dickenson@test.com]
+2024-02-27T09:51:20.311+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [Robert]
+2024-02-27T09:51:20.311+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (5:TIMESTAMP) <- [2024-02-27 09:51:20.269]
+2024-02-27T09:51:20.311+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (6:VARCHAR) <- [Dickenson]
+2024-02-27T09:51:20.311+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (7:BIGINT) <- [1]
+2024-02-27T09:51:20.315+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : update person set company=? where last_name=?
+2024-02-27T09:51:20.315+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Bat Cave Inc.]
+2024-02-27T09:51:20.316+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:VARCHAR) <- [Wayne]
+2024-02-27T09:51:20.319+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 order by p1_0.last_name
+2024-02-27T09:51:20.322+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 where p1_0.id=?
+2024-02-27T09:51:20.323+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2024-02-27T09:51:20.323+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : delete from person where id=?
+2024-02-27T09:51:20.324+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2024-02-27T09:51:20.325+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 order by p1_0.last_name
+2024-02-27T09:51:20.328+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : delete from person where last_name=?
+2024-02-27T09:51:20.328+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Wayne]
+2024-02-27T09:51:20.329+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 order by p1_0.last_name
+2024-02-27T09:51:20.331+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : delete from person
+2024-02-27T09:51:20.332+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 order by p1_0.last_name
+2024-02-27T09:51:30.192+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : insert into person (company,created_at,email,first_name,last_login,last_name) values (?,?,?,?,?,?)
+2024-02-27T09:51:30.193+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Gotham Police Department]
+2024-02-27T09:51:30.194+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:TIMESTAMP) <- [2024-02-27 09:51:30.191]
+2024-02-27T09:51:30.194+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [robert.dickenson@test.com]
+2024-02-27T09:51:30.194+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [Robert]
+2024-02-27T09:51:30.195+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (5:TIMESTAMP) <- [2024-02-27 09:51:30.191]
+2024-02-27T09:51:30.195+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (6:VARCHAR) <- [Dickenson]
+2024-02-27T09:51:30.200+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : insert into person (company,created_at,email,first_name,last_login,last_name) values (?,?,?,?,?,?)
+2024-02-27T09:51:30.200+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Gotham Court]
+2024-02-27T09:51:30.200+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:TIMESTAMP) <- [2024-02-27 09:51:30.191]
+2024-02-27T09:51:30.201+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [katarina.daws@test.com]
+2024-02-27T09:51:30.201+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [Rahel]
+2024-02-27T09:51:30.201+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (5:TIMESTAMP) <- [2024-02-27 09:51:30.191]
+2024-02-27T09:51:30.201+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (6:VARCHAR) <- [Daws]
+2024-02-27T09:51:30.204+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : insert into person (company,created_at,email,first_name,last_login,last_name) values (?,?,?,?,?,?)
+2024-02-27T09:51:30.204+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Wayne Enterprises]
+2024-02-27T09:51:30.204+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:TIMESTAMP) <- [2024-02-27 09:51:30.191]
+2024-02-27T09:51:30.205+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [bruce.wayne@wayne-enterprises.com]
+2024-02-27T09:51:30.205+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [Bruce]
+2024-02-27T09:51:30.205+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (5:TIMESTAMP) <- [2024-02-27 09:51:30.191]
+2024-02-27T09:51:30.205+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (6:VARCHAR) <- [Wayne]
+2024-02-27T09:51:30.207+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : insert into person (company,created_at,email,first_name,last_login,last_name) values (?,?,?,?,?,?)
+2024-02-27T09:51:30.207+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Wayne Enterprises]
+2024-02-27T09:51:30.207+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:TIMESTAMP) <- [2024-02-27 09:51:30.191]
+2024-02-27T09:51:30.207+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [thomas.wayne@wayne-enterprises.com]
+2024-02-27T09:51:30.207+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [Thomas]
+2024-02-27T09:51:30.207+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (5:TIMESTAMP) <- [2024-02-27 09:51:30.191]
+2024-02-27T09:51:30.208+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (6:VARCHAR) <- [Wayne]
+2024-02-27T09:51:30.209+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : insert into person (company,created_at,email,first_name,last_login,last_name) values (?,?,?,?,?,?)
+2024-02-27T09:51:30.209+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Dagget Industries]
+2024-02-27T09:51:30.209+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:TIMESTAMP) <- [2024-02-27 09:51:30.191]
+2024-02-27T09:51:30.210+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [darius.anderson@test.com]
+2024-02-27T09:51:30.210+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [Darius]
+2024-02-27T09:51:30.210+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (5:TIMESTAMP) <- [2024-02-27 09:51:30.191]
+2024-02-27T09:51:30.210+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (6:VARCHAR) <- [Anderson]
+2024-02-27T09:51:30.212+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 where p1_0.id=?
+2024-02-27T09:51:30.213+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [6]
+2024-02-27T09:51:30.228+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 order by p1_0.last_name
+2024-02-27T09:51:30.232+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 where p1_0.last_name=?
+2024-02-27T09:51:30.232+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Wayne]
+2024-02-27T09:51:30.233+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 where p1_0.id=?
+2024-02-27T09:51:30.234+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [6]
+2024-02-27T09:51:30.235+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 where p1_0.id=?
+2024-02-27T09:51:30.235+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [6]
+2024-02-27T09:51:30.236+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : update person set company=?,created_at=?,email=?,first_name=?,last_login=?,last_name=? where id=?
+2024-02-27T09:51:30.237+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [The Joker Inc.]
+2024-02-27T09:51:30.237+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:TIMESTAMP) <- [2024-02-27 09:51:30.191]
+2024-02-27T09:51:30.238+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [robert.dickenson@test.com]
+2024-02-27T09:51:30.238+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [Robert]
+2024-02-27T09:51:30.238+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (5:TIMESTAMP) <- [2024-02-27 09:51:30.191]
+2024-02-27T09:51:30.239+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (6:VARCHAR) <- [Dickenson]
+2024-02-27T09:51:30.239+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (7:BIGINT) <- [6]
+2024-02-27T09:51:30.243+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : update person set company=? where last_name=?
+2024-02-27T09:51:30.244+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Bat Cave Inc.]
+2024-02-27T09:51:30.244+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:VARCHAR) <- [Wayne]
+2024-02-27T09:51:30.247+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 order by p1_0.last_name
+2024-02-27T09:51:30.250+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 where p1_0.id=?
+2024-02-27T09:51:30.251+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [6]
+2024-02-27T09:51:30.251+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : delete from person where id=?
+2024-02-27T09:51:30.251+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [6]
+2024-02-27T09:51:30.253+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 order by p1_0.last_name
+2024-02-27T09:51:30.256+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : delete from person where last_name=?
+2024-02-27T09:51:30.256+01:00 TRACE 20140 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Wayne]
+2024-02-27T09:51:30.257+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 order by p1_0.last_name
+2024-02-27T09:51:30.259+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : delete from person
+2024-02-27T09:51:30.261+01:00 DEBUG 20140 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 order by p1_0.last_name
+2024-02-27T09:51:47.961+01:00 DEBUG 16784 --- [restartedMain] org.hibernate.SQL                        : insert into person (company,created_at,email,first_name,last_login,last_name) values (?,?,?,?,?,?)
+2024-02-27T09:51:47.971+01:00 TRACE 16784 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Gotham Police Department]
+2024-02-27T09:51:47.972+01:00 TRACE 16784 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:TIMESTAMP) <- [2024-02-27 09:51:47.922]
+2024-02-27T09:51:47.972+01:00 TRACE 16784 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [robert.dickenson@test.com]
+2024-02-27T09:51:47.972+01:00 TRACE 16784 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [Robert]
+2024-02-27T09:51:47.973+01:00 TRACE 16784 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (5:TIMESTAMP) <- [2024-02-27 09:51:47.922]
+2024-02-27T09:51:47.973+01:00 TRACE 16784 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (6:VARCHAR) <- [Dickenson]
+2024-02-27T09:51:47.987+01:00 DEBUG 16784 --- [restartedMain] org.hibernate.SQL                        : insert into person (company,created_at,email,first_name,last_login,last_name) values (?,?,?,?,?,?)
+2024-02-27T09:51:47.988+01:00 TRACE 16784 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Gotham Court]
+2024-02-27T09:51:47.988+01:00 TRACE 16784 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:TIMESTAMP) <- [2024-02-27 09:51:47.922]
+2024-02-27T09:51:47.988+01:00 TRACE 16784 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [katarina.daws@test.com]
+2024-02-27T09:51:47.988+01:00 TRACE 16784 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [Rahel]
+2024-02-27T09:51:47.989+01:00 TRACE 16784 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (5:TIMESTAMP) <- [2024-02-27 09:51:47.922]
+2024-02-27T09:51:47.989+01:00 TRACE 16784 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (6:VARCHAR) <- [Daws]
+2024-02-27T09:51:47.991+01:00 DEBUG 16784 --- [restartedMain] org.hibernate.SQL                        : insert into person (company,created_at,email,first_name,last_login,last_name) values (?,?,?,?,?,?)
+2024-02-27T09:51:47.991+01:00 TRACE 16784 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Wayne Enterprises]
+2024-02-27T09:51:47.991+01:00 TRACE 16784 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:TIMESTAMP) <- [2024-02-27 09:51:47.922]
+2024-02-27T09:51:47.991+01:00 TRACE 16784 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [bruce.wayne@wayne-enterprises.com]
+2024-02-27T09:51:47.992+01:00 TRACE 16784 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [Bruce]
+2024-02-27T09:51:47.992+01:00 TRACE 16784 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (5:TIMESTAMP) <- [2024-02-27 09:51:47.922]
+2024-02-27T09:51:47.992+01:00 TRACE 16784 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (6:VARCHAR) <- [Wayne]
+2024-02-27T09:51:47.995+01:00 DEBUG 16784 --- [restartedMain] org.hibernate.SQL                        : insert into person (company,created_at,email,first_name,last_login,last_name) values (?,?,?,?,?,?)
+2024-02-27T09:51:47.996+01:00 TRACE 16784 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Wayne Enterprises]
+2024-02-27T09:51:47.996+01:00 TRACE 16784 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:TIMESTAMP) <- [2024-02-27 09:51:47.922]
+2024-02-27T09:51:47.996+01:00 TRACE 16784 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [thomas.wayne@wayne-enterprises.com]
+2024-02-27T09:51:47.996+01:00 TRACE 16784 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [Thomas]
+2024-02-27T09:51:47.996+01:00 TRACE 16784 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (5:TIMESTAMP) <- [2024-02-27 09:51:47.922]
+2024-02-27T09:51:47.996+01:00 TRACE 16784 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (6:VARCHAR) <- [Wayne]
+2024-02-27T09:51:47.997+01:00 DEBUG 16784 --- [restartedMain] org.hibernate.SQL                        : insert into person (company,created_at,email,first_name,last_login,last_name) values (?,?,?,?,?,?)
+2024-02-27T09:51:47.997+01:00 TRACE 16784 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Dagget Industries]
+2024-02-27T09:51:47.997+01:00 TRACE 16784 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:TIMESTAMP) <- [2024-02-27 09:51:47.922]
+2024-02-27T09:51:47.998+01:00 TRACE 16784 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [darius.anderson@test.com]
+2024-02-27T09:51:47.998+01:00 TRACE 16784 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [Darius]
+2024-02-27T09:51:47.998+01:00 TRACE 16784 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (5:TIMESTAMP) <- [2024-02-27 09:51:47.922]
+2024-02-27T09:51:47.998+01:00 TRACE 16784 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (6:VARCHAR) <- [Anderson]
+2024-02-27T09:51:48.021+01:00 DEBUG 16784 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 where p1_0.id=?
+2024-02-27T09:51:48.021+01:00 TRACE 16784 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [11]
+2024-02-27T09:51:48.174+01:00 DEBUG 16784 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 order by p1_0.last_name
+2024-02-27T09:51:48.195+01:00 DEBUG 16784 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 where p1_0.last_name=?
+2024-02-27T09:51:48.195+01:00 TRACE 16784 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Wayne]
+2024-02-27T09:51:48.197+01:00 DEBUG 16784 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 where p1_0.id=?
+2024-02-27T09:51:48.197+01:00 TRACE 16784 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [11]
+2024-02-27T09:51:48.200+01:00 DEBUG 16784 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 where p1_0.id=?
+2024-02-27T09:51:48.200+01:00 TRACE 16784 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [11]
+2024-02-27T09:51:48.204+01:00 DEBUG 16784 --- [restartedMain] org.hibernate.SQL                        : update person set company=?,created_at=?,email=?,first_name=?,last_login=?,last_name=? where id=?
+2024-02-27T09:51:48.205+01:00 TRACE 16784 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [The Joker Inc.]
+2024-02-27T09:51:48.205+01:00 TRACE 16784 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:TIMESTAMP) <- [2024-02-27 09:51:47.922]
+2024-02-27T09:51:48.205+01:00 TRACE 16784 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [robert.dickenson@test.com]
+2024-02-27T09:51:48.205+01:00 TRACE 16784 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [Robert]
+2024-02-27T09:51:48.205+01:00 TRACE 16784 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (5:TIMESTAMP) <- [2024-02-27 09:51:47.922]
+2024-02-27T09:51:48.205+01:00 TRACE 16784 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (6:VARCHAR) <- [Dickenson]
+2024-02-27T09:51:48.205+01:00 TRACE 16784 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (7:BIGINT) <- [11]
+2024-02-27T09:51:48.220+01:00 DEBUG 16784 --- [restartedMain] org.hibernate.SQL                        : update person set company=? where last_name=?
+2024-02-27T09:51:48.221+01:00 TRACE 16784 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Bat Cave Inc.]
+2024-02-27T09:51:48.221+01:00 TRACE 16784 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:VARCHAR) <- [Wayne]
+2024-02-27T09:51:48.224+01:00 DEBUG 16784 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 order by p1_0.last_name
+2024-02-27T09:51:48.227+01:00 DEBUG 16784 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 where p1_0.id=?
+2024-02-27T09:51:48.227+01:00 TRACE 16784 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [11]
+2024-02-27T09:51:48.230+01:00 DEBUG 16784 --- [restartedMain] org.hibernate.SQL                        : delete from person where id=?
+2024-02-27T09:51:48.230+01:00 TRACE 16784 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [11]
+2024-02-27T09:51:48.232+01:00 DEBUG 16784 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 order by p1_0.last_name
+2024-02-27T09:51:48.238+01:00 DEBUG 16784 --- [restartedMain] org.hibernate.SQL                        : delete from person where last_name=?
+2024-02-27T09:51:48.239+01:00 TRACE 16784 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Wayne]
+2024-02-27T09:51:48.240+01:00 DEBUG 16784 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 order by p1_0.last_name
+2024-02-27T09:51:48.243+01:00 DEBUG 16784 --- [restartedMain] org.hibernate.SQL                        : delete from person
+2024-02-27T09:51:48.244+01:00 DEBUG 16784 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 order by p1_0.last_name
+2024-02-27T09:58:36.601+01:00 DEBUG 6384 --- [restartedMain] org.hibernate.SQL                        : insert into person (company,created_at,email,first_name,last_login,last_name) values (?,?,?,?,?,?)
+2024-02-27T09:58:36.605+01:00 TRACE 6384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Gotham Police Department]
+2024-02-27T09:58:36.605+01:00 TRACE 6384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:TIMESTAMP) <- [2024-02-27 09:58:36.571]
+2024-02-27T09:58:36.605+01:00 TRACE 6384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [robert.dickenson@test.com]
+2024-02-27T09:58:36.606+01:00 TRACE 6384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [Robert]
+2024-02-27T09:58:36.606+01:00 TRACE 6384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (5:TIMESTAMP) <- [2024-02-27 09:58:36.571]
+2024-02-27T09:58:36.606+01:00 TRACE 6384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (6:VARCHAR) <- [Dickenson]
+2024-02-27T09:58:36.627+01:00 DEBUG 6384 --- [restartedMain] org.hibernate.SQL                        : insert into person (company,created_at,email,first_name,last_login,last_name) values (?,?,?,?,?,?)
+2024-02-27T09:58:36.628+01:00 TRACE 6384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Gotham Court]
+2024-02-27T09:58:36.628+01:00 TRACE 6384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:TIMESTAMP) <- [2024-02-27 09:58:36.571]
+2024-02-27T09:58:36.628+01:00 TRACE 6384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [katarina.daws@test.com]
+2024-02-27T09:58:36.628+01:00 TRACE 6384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [Rahel]
+2024-02-27T09:58:36.629+01:00 TRACE 6384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (5:TIMESTAMP) <- [2024-02-27 09:58:36.571]
+2024-02-27T09:58:36.629+01:00 TRACE 6384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (6:VARCHAR) <- [Daws]
+2024-02-27T09:58:36.630+01:00 DEBUG 6384 --- [restartedMain] org.hibernate.SQL                        : insert into person (company,created_at,email,first_name,last_login,last_name) values (?,?,?,?,?,?)
+2024-02-27T09:58:36.630+01:00 TRACE 6384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Wayne Enterprises]
+2024-02-27T09:58:36.631+01:00 TRACE 6384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:TIMESTAMP) <- [2024-02-27 09:58:36.571]
+2024-02-27T09:58:36.631+01:00 TRACE 6384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [bruce.wayne@wayne-enterprises.com]
+2024-02-27T09:58:36.631+01:00 TRACE 6384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [Bruce]
+2024-02-27T09:58:36.631+01:00 TRACE 6384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (5:TIMESTAMP) <- [2024-02-27 09:58:36.571]
+2024-02-27T09:58:36.632+01:00 TRACE 6384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (6:VARCHAR) <- [Wayne]
+2024-02-27T09:58:36.633+01:00 DEBUG 6384 --- [restartedMain] org.hibernate.SQL                        : insert into person (company,created_at,email,first_name,last_login,last_name) values (?,?,?,?,?,?)
+2024-02-27T09:58:36.633+01:00 TRACE 6384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Wayne Enterprises]
+2024-02-27T09:58:36.634+01:00 TRACE 6384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:TIMESTAMP) <- [2024-02-27 09:58:36.571]
+2024-02-27T09:58:36.634+01:00 TRACE 6384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [thomas.wayne@wayne-enterprises.com]
+2024-02-27T09:58:36.634+01:00 TRACE 6384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [Thomas]
+2024-02-27T09:58:36.634+01:00 TRACE 6384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (5:TIMESTAMP) <- [2024-02-27 09:58:36.571]
+2024-02-27T09:58:36.635+01:00 TRACE 6384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (6:VARCHAR) <- [Wayne]
+2024-02-27T09:58:36.637+01:00 DEBUG 6384 --- [restartedMain] org.hibernate.SQL                        : insert into person (company,created_at,email,first_name,last_login,last_name) values (?,?,?,?,?,?)
+2024-02-27T09:58:36.637+01:00 TRACE 6384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Dagget Industries]
+2024-02-27T09:58:36.637+01:00 TRACE 6384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:TIMESTAMP) <- [2024-02-27 09:58:36.571]
+2024-02-27T09:58:36.637+01:00 TRACE 6384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [darius.anderson@test.com]
+2024-02-27T09:58:36.638+01:00 TRACE 6384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [Darius]
+2024-02-27T09:58:36.638+01:00 TRACE 6384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (5:TIMESTAMP) <- [2024-02-27 09:58:36.571]
+2024-02-27T09:58:36.638+01:00 TRACE 6384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (6:VARCHAR) <- [Anderson]
+2024-02-27T09:58:36.658+01:00 DEBUG 6384 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 where p1_0.id=?
+2024-02-27T09:58:36.659+01:00 TRACE 6384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [10000]
+2024-02-27T09:58:36.805+01:00 DEBUG 6384 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 order by p1_0.last_name
+2024-02-27T09:58:36.826+01:00 DEBUG 6384 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 where p1_0.last_name=?
+2024-02-27T09:58:36.827+01:00 TRACE 6384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Wayne]
+2024-02-27T09:58:36.833+01:00 DEBUG 6384 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 where p1_0.id=?
+2024-02-27T09:58:36.834+01:00 TRACE 6384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [10000]
+2024-02-27T09:58:36.837+01:00 DEBUG 6384 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 where p1_0.id=?
+2024-02-27T09:58:36.837+01:00 TRACE 6384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [10000]
+2024-02-27T09:58:36.842+01:00 DEBUG 6384 --- [restartedMain] org.hibernate.SQL                        : update person set company=?,created_at=?,email=?,first_name=?,last_login=?,last_name=? where id=?
+2024-02-27T09:58:36.843+01:00 TRACE 6384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [The Joker Inc.]
+2024-02-27T09:58:36.843+01:00 TRACE 6384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:TIMESTAMP) <- [2024-02-27 09:58:36.571]
+2024-02-27T09:58:36.843+01:00 TRACE 6384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [robert.dickenson@test.com]
+2024-02-27T09:58:36.843+01:00 TRACE 6384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [Robert]
+2024-02-27T09:58:36.843+01:00 TRACE 6384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (5:TIMESTAMP) <- [2024-02-27 09:58:36.571]
+2024-02-27T09:58:36.845+01:00 TRACE 6384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (6:VARCHAR) <- [Dickenson]
+2024-02-27T09:58:36.845+01:00 TRACE 6384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (7:BIGINT) <- [10000]
+2024-02-27T09:58:36.858+01:00 DEBUG 6384 --- [restartedMain] org.hibernate.SQL                        : update person set company=? where last_name=?
+2024-02-27T09:58:36.858+01:00 TRACE 6384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Bat Cave Inc.]
+2024-02-27T09:58:36.858+01:00 TRACE 6384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:VARCHAR) <- [Wayne]
+2024-02-27T09:58:36.860+01:00 DEBUG 6384 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 order by p1_0.last_name
+2024-02-27T09:58:36.862+01:00 DEBUG 6384 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 where p1_0.id=?
+2024-02-27T09:58:36.862+01:00 TRACE 6384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [10000]
+2024-02-27T09:58:36.865+01:00 DEBUG 6384 --- [restartedMain] org.hibernate.SQL                        : delete from person where id=?
+2024-02-27T09:58:36.866+01:00 TRACE 6384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [10000]
+2024-02-27T09:58:36.868+01:00 DEBUG 6384 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 order by p1_0.last_name
+2024-02-27T09:58:36.874+01:00 DEBUG 6384 --- [restartedMain] org.hibernate.SQL                        : delete from person where last_name=?
+2024-02-27T09:58:36.875+01:00 TRACE 6384 --- [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [Wayne]
+2024-02-27T09:58:36.877+01:00 DEBUG 6384 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 order by p1_0.last_name
+2024-02-27T09:58:36.879+01:00 DEBUG 6384 --- [restartedMain] org.hibernate.SQL                        : delete from person
+2024-02-27T09:58:36.880+01:00 DEBUG 6384 --- [restartedMain] org.hibernate.SQL                        : select p1_0.id,p1_0.company,p1_0.created_at,p1_0.email,p1_0.first_name,p1_0.last_login,p1_0.last_name from person p1_0 order by p1_0.last_name
